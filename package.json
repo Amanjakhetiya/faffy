@@ -4,6 +4,6 @@
     "noodle-it": "^0.0.2"
   },
   "scripts": {
-    "start": "node server"
+    "start": "node server.js"
   }
 }

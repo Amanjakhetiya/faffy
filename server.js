@@ -5,7 +5,6 @@ const app = express()
 const port = process.env.PORT || 3001
 
 app.get('/', (req, res) => {
-  console.log('Oh boy!')
   res.sendfile('./index.html')
 })
 
