@@ -4,8 +4,10 @@ FROM node:9.11-alpine
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY . /usr/src/app
+COPY package.json /usr/src/app
 RUN yarn
+
+COPY . /usr/src/app
 
 # Oh cool, port 3001! SAME THING THE SERVER IS ON
 EXPOSE 3001
