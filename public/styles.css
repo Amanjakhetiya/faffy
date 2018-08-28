@@ -25,6 +25,7 @@ p {
 }
 
 .grid {
+  margin: 0 auto;
   width: 960px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
