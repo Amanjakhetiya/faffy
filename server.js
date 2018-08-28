@@ -6,7 +6,10 @@ const app = express()
 const port = process.env.PORT || 3001
 
 app.get('/', (req, res) => {
-  console.log(path.join(__dirname, 'index.html'))
+  res.sendFile(path.join(__dirname, 'index.html'))
+})
+
+app.get('/styles.', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'))
 })
 
