@@ -24,7 +24,7 @@ p {
 }
 
 .grid-image {
-  width: 330px;
+  width: 280px;
   display: inline-block;
   color: red;
   height: auto;
@@ -36,7 +36,7 @@ p {
 .grid {
   justify-items: center;
   margin: 0 auto;
-  width: 960px;
+  width: 1120px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
