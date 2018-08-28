@@ -1,5 +1,5 @@
 html, body {
-  background: yellow;
+  background: #ffee00;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -15,6 +15,8 @@ p {
 .grid-image {
   max-width: 330px;
   display: inline-block;
+  color: red;
+  height: auto;
 }
 
 .grid {
