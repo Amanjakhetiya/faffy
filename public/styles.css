@@ -1,4 +1,5 @@
 html, body {
+  background: yellow;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -7,5 +8,6 @@ html, body {
 }
 
 p {
-  color: re
+  color: red;
+  font-size: 60px;
 }
