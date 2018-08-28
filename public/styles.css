@@ -12,8 +12,13 @@ p {
   font-size: 60px;
 }
 
+.heart {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
 .grid-image {
-  max-width: 330px;
+  width: 330px;
   display: inline-block;
   color: red;
   height: auto;
@@ -21,4 +26,6 @@ p {
 
 .grid {
   width: 960px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
