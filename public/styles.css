@@ -11,3 +11,12 @@ p {
   color: red;
   font-size: 60px;
 }
+
+.grid-image {
+  max-width: 330px;
+  display: inline-block;
+}
+
+.grid {
+  width: 960px;
+}
