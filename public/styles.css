@@ -32,6 +32,7 @@ p {
 }
 
 .grid {
+  justify-items: center;
   margin: 0 auto;
   width: 960px;
   display: grid;
