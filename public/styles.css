@@ -1,8 +1,7 @@
 html, body {
-  background: #FFF3F3;
-  font-family: 'Kosugi Maru', sans-serif;
+  background: tomato;
+  font-family: sans-serif;
   margin: 40px 20px;
-  color: #7C7474;
 }
 
 * {
@@ -33,15 +32,6 @@ p {
   margin-bottom: 40px;
   font-size: 16px;
   text-transform: uppercase;
-}
-
-.grid-image {
-  width: 280px;
-  display: inline-block;
-  color: #be5d5d;
-  height: auto;
-  text-align: center;
-  line-height: 330px;
 }
 
 .heart {
