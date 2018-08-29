@@ -14,15 +14,20 @@ p {
   font-size: 60px;
 }
 
+.container {
+  max-width: 1120px;
+}
+
 .heart {
   grid-row-start: 1;
   grid-row-end: 4;
 }
 
 .grid-heading {
-  display: flex;
   text-align: left;
   margin-bottom: 40px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .grid-image {
@@ -37,10 +42,13 @@ p {
 
 .grid {
   justify-items: center;
-  margin: 0 auto;
-  width: 1120px;
+  margin: 0 auto;]
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 12px;
   column-gap: 12px;
+}
+
+.counter {
+  float: right;
 }
