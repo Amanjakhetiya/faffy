@@ -42,7 +42,7 @@ p {
 .grid-heading {
   text-align: center;
   margin-bottom: 80px;
-  font-size: 16px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -58,6 +58,9 @@ p {
 }
 
 @media only screen and (max-width: 720px) {
+  html, body {
+    margin: 40px 12px;
+  }
   .grid {
     justify-items: center;
     display: grid;
@@ -66,8 +69,16 @@ p {
     row-gap: 12px;
   }
 
+  .grid-heading {
+    font-size: 16px;
+  }
+
   .grid-image {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
+  }
+
+  .heart {
+    margin-bottom: 40px;
   }
 }
