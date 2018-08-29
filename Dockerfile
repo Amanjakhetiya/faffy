@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app
 RUN yarn
-
+# OooOoo hi corey :)
 COPY . /usr/src/app
 
 # Oh cool, port 3001! SAME THING THE SERVER IS ON
