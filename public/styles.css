@@ -44,6 +44,7 @@ p {
   justify-items: center;
   margin: 0 auto;]
   display: grid;
+  max-width: 1120px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 12px;
   column-gap: 12px;
