@@ -27,7 +27,11 @@ p {
   column-gap: 12px;
 }
 
-.grid {}
+.grid-image {
+  width: 280px;
+  height: auto;
+  text-align: center;
+}
 
 .grid-heading {
   text-align: center;
