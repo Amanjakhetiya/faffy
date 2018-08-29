@@ -1,7 +1,10 @@
-html, body {
+html {
   background: #ff6447;
   color: #721200;
   font-family: 'Oxygen Mono', monospace;
+}
+
+body {
   margin: 40px 20px;
 }
 
