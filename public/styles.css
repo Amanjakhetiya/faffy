@@ -33,8 +33,10 @@ p {
 .grid-image {
   display: flex;
   align-items: center;
+  justify-content: center;
   max-width: 280px;
   max-height: 280px;
+  width: 100%;
 }
 
 .grid-heading {
@@ -53,4 +55,14 @@ p {
   position: fixed;
   top: 20px;
   right: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .container {
+      width: 100%;
+    }
 }
