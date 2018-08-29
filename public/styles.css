@@ -16,15 +16,20 @@ p {
 
 .container {
   max-width: 1120px;
+  margin: 0 auto;
 }
 
-.heart {
-  grid-row-start: 1;
-  grid-row-end: 4;
+.grid {
+  justify-items: center;
+  display: grid;
+  width: 1120px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 12px;
+  column-gap: 12px;
 }
 
 .grid-heading {
-  text-align: left;
+  text-align: center;
   margin-bottom: 40px;
   font-size: 16px;
   text-transform: uppercase;
@@ -33,23 +38,19 @@ p {
 .grid-image {
   width: 280px;
   display: inline-block;
-  color: red;
+  color: #be5d5d;
   height: auto;
   text-align: center;
   line-height: 330px;
 }
 
-
-.grid {
-  justify-items: center;
-  margin: 0 auto;
-  display: grid;
-  width: 1120px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 12px;
-  column-gap: 12px;
+.heart {
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .counter {
-  float: right;
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
