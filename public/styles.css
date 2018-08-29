@@ -37,6 +37,8 @@ p {
   max-width: 280px;
   max-height: 280px;
   width: 100%;
+  border: 1px dotted #ffc9bf;
+  border-radius: 4px;
 }
 
 .grid-heading {
