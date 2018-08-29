@@ -49,8 +49,10 @@ p {
 }
 
 .heart {
+  color: #ffffff;
   grid-row-start: 1;
   grid-row-end: 4;
+  border: 0;
 }
 
 .counter {
