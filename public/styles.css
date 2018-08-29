@@ -59,7 +59,11 @@ p {
 
 @media only screen and (max-width: 720px) {
   .grid {
-    max-width: 100%;
+    justify-items: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    row-gap: 12px;
   }
 
   .grid-image {
