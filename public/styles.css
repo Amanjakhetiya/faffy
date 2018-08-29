@@ -57,20 +57,13 @@ p {
   right: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 720px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .grid {
-      max-width: 100%;
-    }
+@media only screen and (max-width: 720px) {
+  .grid {
+    max-width: 100%;
+  }
 
-    .grid-image {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .heart {
-      display: hidden;
-    }
+  .grid-image {
+    max-width: 100%;
+    height: auto;
+  }
 }
