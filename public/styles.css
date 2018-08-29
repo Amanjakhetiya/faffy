@@ -1,5 +1,6 @@
 html, body {
-  background: tomato;
+  background: #ff6447;
+  color: #bb2509;
   font-family: 'Oxygen Mono', monospace;
   margin: 40px 20px;
 }
@@ -30,9 +31,10 @@ p {
 }
 
 .grid-image {
+  display: flex;
+  align-items: center;
   max-width: 280px;
-  height: auto;
-  text-align: center;
+  max-height: 280px;
 }
 
 .grid-heading {
