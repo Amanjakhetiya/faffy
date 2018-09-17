@@ -47,7 +47,7 @@ body {
 }
 
 .heart {
-  color: #ffffff;
+  color: #ff6447;
   grid-row-start: 1;
   grid-row-end: 4;
   border: 0;
