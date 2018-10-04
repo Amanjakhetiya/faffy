@@ -46,11 +46,19 @@ body {
   text-transform: uppercase;
 }
 
-.image-caption {
-  margin-top: 12px;
-  font-size: 14px;
-  font-weight: 400;
-  color: #966767;
+.image-wrapper {
+  margin: 80px 0;
+
+  .image {
+    border-radius: 4px;
+  }
+
+  .image-caption {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #966767;
+  }
 }
 
 .heart {
