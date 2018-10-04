@@ -46,6 +46,13 @@ body {
   text-transform: uppercase;
 }
 
+.image-caption {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #966767;
+}
+
 .heart {
   color: #ff6447;
   grid-row-start: 1;
