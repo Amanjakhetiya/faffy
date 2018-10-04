@@ -48,20 +48,20 @@ body {
 
 .image-wrapper {
   margin: 80px 0;
+}
 
-  .image {
-    max-width: 800px;
-    max-height: 800px;
-    width: 100%;
-    border-radius: 4px;
-  }
+.image-content {
+  max-width: 800px;
+  max-height: 800px;
+  width: 100%;
+  border-radius: 4px;
+}
 
-  .image-caption {
-    margin-top: 12px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #966767;
-  }
+.image-caption {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #966767;
 }
 
 .heart {
